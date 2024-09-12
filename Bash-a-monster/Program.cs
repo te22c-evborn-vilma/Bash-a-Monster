@@ -8,17 +8,17 @@ Megaman man = new Megaman() {
 
 Enemy one = new Enemy () {
     Name = "Scar",
-    Hp = 100
+    HP = 100
 };
 
 Console.WriteLine(man.Name + " & " + one.Name);
 
-if (one.Hp == 100)
+if (one.HP == 100)
 {
     one.Name = "Rough";
-    one.Hp = 50;
+    one.HP = 50;
 }
 
-Console.WriteLine(man.Name + " and the new enemy " + one.Name + " with the hp " + one.Hp);
+Console.WriteLine(man.Name + " and the new enemy " + one.Name + " with the hp " + one.HP);
 
 Console.ReadLine();
