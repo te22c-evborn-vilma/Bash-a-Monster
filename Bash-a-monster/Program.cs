@@ -13,10 +13,12 @@ Enemy one = new Enemy () {
 
 Console.WriteLine(man.Name + " & " + one.Name);
 
-// while (one.Hp > 0)
-// {
-//     Console.WriteLine(one.Hp);
-//     one.Hp =- 25;
-// }
+if (one.Hp == 100)
+{
+    one.Name = "Rough";
+    one.Hp = 50;
+}
+
+Console.WriteLine(man.Name + " and the new enemy " + one.Name + " with the hp " + one.Hp);
 
 Console.ReadLine();
